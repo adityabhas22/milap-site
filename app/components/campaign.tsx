@@ -60,7 +60,10 @@ export default function CampaignLandingPage() {
               By fostering an engaging community, enhancing facilities, and promoting student growth, 
               I pledge to create an inclusive, dynamic environment where every student thrives and feels valued.
             </p>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white text-lg group transform hover:scale-105 transition-all">
+            <Button 
+              className="bg-blue-600 hover:bg-blue-700 text-white text-lg group transform hover:scale-105 transition-all"
+              onClick={() => window.open('https://drive.google.com/file/d/1O4OyNrg4T-_mhcXPi9eSJIDYL4_pDiv6/view?usp=sharing', '_blank')}
+            >
               Learn More About Milap
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
